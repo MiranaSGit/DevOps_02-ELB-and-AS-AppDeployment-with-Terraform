@@ -92,7 +92,7 @@ resource "aws_db_instance" "db-server" {
   engine                      = "mysql"
   engine_version              = "8.0.23"
   username                    = "admin"
-  password                    = "Oliver_1"
+  password                    = "myPassws@"
   monitoring_interval         = 0
   multi_az                    = false
   port                        = 3306
